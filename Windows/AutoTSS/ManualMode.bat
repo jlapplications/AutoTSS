@@ -1,4 +1,5 @@
 @ECHO OFF
 TITLE "AutoTSS - ManualMode"
+set mypath=%cd%
 :ManualMode
-python "C:\Users\%username%\Documents\AutoTSS\autotss.py"
+python "%mypath%\autotss.py"
